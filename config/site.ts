@@ -1,8 +1,9 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "ApexGo",
+  description:
+    "ApexGo is a fast, reliable financial mobile app in Nigeria, offering seamless money transfers and VTU (Virtual Top-Up) services for airtime, data, and more. Experience secure and instant transactions, anytime, anywhere.",
   navItems: [
     {
       label: "Home",
@@ -14,6 +15,7 @@ export const siteConfig = {
     },
     {
       label: "Pricing",
+
       href: "/pricing",
     },
     {
@@ -65,5 +67,28 @@ export const siteConfig = {
     docs: "https://heroui.com",
     discord: "https://discord.gg/9b6yyZKmH4",
     sponsor: "https://patreon.com/jrgarciadev",
+  },
+
+  home_nav: [
+    {
+      lable: "Features",
+      href: "/features",
+    },
+    {
+      label: "Testimonials",
+      href: "/testimonials",
+    },
+    {
+      label: "Awards",
+      href: "/awards",
+    },
+    {
+      label: "FAQ",
+      href: "/faq",
+    },
+  ],
+
+  colors: {
+    primary: "#1B434E",
   },
 };
