@@ -29,14 +29,19 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={clsx("h-svh font-sans antialiased", fontSans.variable)}>
+      <body
+        className={clsx(
+          "h-svh font-sans antialiased bg-background",
+          fontSans.variable
+        )}
+      >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
-          <div>
+          <div className="px-4 md:px-10 lg:px-16">
             <Navbar />
+            <main>{children}</main>
           </div>
-          <main>{children}</main>
           <footer>
-            <p>Footer here</p>
+            <p className="">Footer here</p>
           </footer>
         </Providers>
       </body>
