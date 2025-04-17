@@ -32,13 +32,26 @@ export default function Home() {
       </div>
       {/* Right */}
       <div className="basis-[100%] lg:basis-[50%] flex justify-center ">
-        <Image
-          src={"/man_phone.png"}
-          alt="man_phone"
-          className="py-12 "
-          width={600}
-          height={600}
-        />
+        <div style={{ position: "relative", display: "inline-block" }}>
+          <Image
+            src={"/man_phone.png"}
+            alt="man_phone"
+            className="py-12 "
+            width={600}
+            height={600}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              backgroundColor: "transparent",
+              zIndex: 10,
+            }}
+          />
+        </div>
       </div>
     </section>
   );

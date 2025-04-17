@@ -3,7 +3,7 @@ import { siteConfig } from "@/config/site";
 import "@/styles/globals.css";
 import clsx from "clsx";
 import { Metadata, Viewport } from "next";
-import { ReactNode } from "react";
+import { ReactNode, useEffect } from "react";
 import { Providers } from "./providers";
 import Navbar from "@/components/navbar";
 
