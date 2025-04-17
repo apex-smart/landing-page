@@ -38,8 +38,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <div className="px-4 md:px-10 lg:px-16">
             <Navbar />
-            <main>{children}</main>
           </div>
+          <main>{children}</main>
           <footer>
             <p className="">Footer here</p>
           </footer>

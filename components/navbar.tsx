@@ -4,11 +4,17 @@ import { IoArrowForward } from "react-icons/io5";
 import { MdOutlineMenu } from "react-icons/md";
 export default function Navbar() {
   return (
-    <div className="flex items-center justify-between py-3 ">
+    <div className="flex items-center  justify-between">
       {/* Left */}
       <div className="flex items-center gap-16">
         {/* Logo */}
-        <Image src="/logo.png" width={120} height={120} alt="logo" />
+        <Image
+          src="/logo.png"
+          width={120}
+          height={120}
+          alt="logo"
+          className="py-2"
+        />
         <ul className=" gap-8 items-center hidden md:flex">
           {siteConfig.home_nav.map((item) => (
             <li className="text-[14px] font-medium" key={item.href}>
