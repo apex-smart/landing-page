@@ -317,8 +317,8 @@ export default function Home() {
                   <div>
                     <h3 className="font-bold text-lg">Instant Notifications</h3>
                     <p className="opacity-80">
-                      Real-time alerts for every transaction so you're always in
-                      control.
+                      Real-time alerts for every transaction so you&apos;re
+                      always in control.
                     </p>
                   </div>
                 </div>
