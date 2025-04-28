@@ -31,19 +31,19 @@ export function Footer() {
               everyone.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="opacity-80 hover:opacity-100 transition">
+              <a href="/" className="opacity-80 hover:opacity-100 transition">
                 <FaFacebook className="h-5 w-5" />
               </a>
-              <a href="#" className="opacity-80 hover:opacity-100 transition">
+              <a href="/" className="opacity-80 hover:opacity-100 transition">
                 <FaTwitter className="h-5 w-5" />
               </a>
-              <a href="#" className="opacity-80 hover:opacity-100 transition">
+              <a href="/" className="opacity-80 hover:opacity-100 transition">
                 <FaInstagram className="h-5 w-5" />
               </a>
-              <a href="#" className="opacity-80 hover:opacity-100 transition">
+              <a href="/" className="opacity-80 hover:opacity-100 transition">
                 <FaLinkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="opacity-80 hover:opacity-100 transition">
+              <a href="/" className="opacity-80 hover:opacity-100 transition">
                 <FaYoutube className="h-5 w-5" />
               </a>
             </div>
