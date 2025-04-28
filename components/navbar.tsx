@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="flex items-center  justify-between">
       {/* Left */}
-      <div className="flex items-center gap-16">
+      <div className="flex items-center gap-14">
         {/* Logo */}
         <Image
           src="/logo.png"
@@ -15,9 +15,12 @@ export default function Navbar() {
           alt="logo"
           className="py-2"
         />
-        <ul className=" gap-8 items-center hidden md:flex">
+        <ul className="gap-8 items-center hidden md:flex">
           {siteConfig.home_nav.map((item) => (
-            <li className="text-[14px] font-medium" key={item.href}>
+            <li
+              className="text-[14px] cursor-pointer font-sans"
+              key={item.href}
+            >
               {item.label}
             </li>
           ))}

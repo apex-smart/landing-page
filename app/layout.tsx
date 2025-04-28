@@ -6,6 +6,7 @@ import { Metadata, Viewport } from "next";
 import { ReactNode, useEffect } from "react";
 import { Providers } from "./providers";
 import Navbar from "@/components/navbar";
+import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   title: siteConfig.name,
@@ -40,9 +41,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <Navbar />
           </div>
           <main>{children}</main>
-          <footer>
-            <p className="">Footer here</p>
-          </footer>
+          <Footer />
         </Providers>
       </body>
     </html>
