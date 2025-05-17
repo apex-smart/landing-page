@@ -172,7 +172,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Smooth Onboarding Section */}
+      {/* Smooth Onboarding Sections */}
       <section className="py-16 px-4 md:px-10 lg:px-16 bg-[#08775d] text-white">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
